@@ -1,4 +1,5 @@
 .*swp
+*.pem
 /firefox/target
 /calendar/target
-/firefox/jidesha.xpi
+/firefox/kc-desktopstreamer.xpi

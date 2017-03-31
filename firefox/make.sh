@@ -2,7 +2,7 @@
 set -e
 
 #space-separated list of domains
-DOMAINS=""
+DOMAINS="meet.kaamoscreations.com meet.calotte-academy.com"
 
 # The ID of the extension. This is to be chosen for the particular deployment and
 # is used to allow applications (e.g. jitsi-meet) to detect whether the 
@@ -10,7 +10,7 @@ DOMAINS=""
 # deployments.
 # See https://developer.mozilla.org/en-US/Add-ons/Install_Manifests for requirements
 # for the format.
-EXT_ID=""
+EXT_ID="desktopstreamer@kaamoscreations.com"
 
 CONTENT_ROOT=`echo $EXT_ID | tr @ .`
 
@@ -30,4 +30,4 @@ sed -e "s/JIDESHA_DOMAINS/$DOMAINS/" bootstrap.js > target/bootstrap.js
 sed -e "s/JIDESHA_EXT_ID/$EXT_ID/" install.rdf > target/install.rdf
 sed -e "s/CONTENT_ROOT/$CONTENT_ROOT/" chrome.manifest > target/chrome.manifest
 
-(cd target ; zip -r ../jidesha.xpi *)
+(cd target ; zip -r ../kc_desktopstreamer.xpi *)

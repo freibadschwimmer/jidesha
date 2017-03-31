@@ -5,11 +5,11 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>JIDESHA_EXT_ID</em:id>
-    <em:name>Jidesha</em:name>
-    <em:description>Jitsi-Meet Desktop Sharing: enables screen sharing for the Jitsi-Meet application.</em:description>
-    <em:version>0.1.1</em:version>
-    <em:creator>Jitsi</em:creator>
-    <em:homepageURL>https://github.com/jitsi/jidesha/</em:homepageURL>
+    <em:name>KaamosCreations DesktopStreamer</em:name>
+    <em:description>Meet.KaamosCreations - Desktop Sharing: enables screen sharing for the Jitsi-Meet applications on KaamosCreations.com</em:description>
+    <em:version>0.1.3</em:version>
+    <em:creator>Jitsi! (with adoptations by KaamosCreations.com)</em:creator>
+    <em:homepageURL>https://github.com/freibadschwimmer/kc_desktopstreamer</em:homepageURL>
     <em:type>2</em:type>
     <em:bootstrap>true</em:bootstrap>
 
@@ -18,7 +18,7 @@
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
         <em:minVersion>40.0</em:minVersion>
-        <em:maxVersion>44.0</em:maxVersion>
+        <em:maxVersion>52.0</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>
