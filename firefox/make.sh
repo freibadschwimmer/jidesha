@@ -10,7 +10,7 @@ DOMAINS="meet.kaamoscreations.com meet.calotte-academy.com"
 # deployments.
 # See https://developer.mozilla.org/en-US/Add-ons/Install_Manifests for requirements
 # for the format.
-EXT_ID="desktopstreamer@kaamoscreations.com"
+EXT_ID="desktopstreamer@kaamoscreations"
 
 CONTENT_ROOT=`echo $EXT_ID | tr @ .`
 
